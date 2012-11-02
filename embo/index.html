@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="Cerberos/Estilos/estiloBase.css"/>
+<link rel="stylesheet" type="text/css" href="Cerberos/Estilos/estiloLogin.css"/>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+<script type="text/javascript" src="Cerberos/Script/script_login.js"></script>
+<title>Bienvenido</title>
+</head>
+<body>
+<center>
+<div id="login-box" class="login-popup">
+        <a href="#" class="close"><img src="Cerberos/Imagenes/iconos/close_pop.png" class="btn_close" title="Close Window" alt="Close" /></a>
+          <form method="post" class="signin" action="Cerberos/Funciones/login.php">
+                <fieldset class="textbox">
+            	<label class="username">
+                <span>Usuario</span>
+                <input id="username" name="username" value="" type="text" autocomplete="on" placeholder="Usuario">
+                </label>
+                <label class="password">
+                <span>Contraseña</span>
+                <input id="password" name="password" value="" type="password" placeholder="Clave">
+                </label>
+                <input type="submit" class="submit button" value="Ingresar"/>
+                
+                <p>
+                <a class="forgot" href="#">¿Olvidaste tu contraseña?</a>
+                </p>        
+                </fieldset>
+          </form>
+</div>
+<h1>Sistema de Alumno Escuela Militar</h1>
+<div class="clock">
+   <div id="Date"></div>
+      <ul>
+          <li id="hours"></li>
+          <li id="point">:</li>
+          <li id="min"></li>
+          <li id="point">:</li>
+          <li id="sec"></li>
+      </ul>
+</div>
+<a href="#login-box" class="login-window">Ingresar</a><br />
+<a href="Cerberos/">Developers</a>
+</center>
+
+<center>
+
+</center>
+</body>
+</html>
